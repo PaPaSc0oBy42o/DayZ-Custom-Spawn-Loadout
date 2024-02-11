@@ -1,0 +1,591 @@
+{
+  "spawnWeight": 1,
+  "name": "Military - AKM",
+  "characterTypes": [
+    "SurvivorM_Boris",
+    "SurvivorM_Cyril",
+    "SurvivorM_Denis",
+    "SurvivorM_Elias",
+    "SurvivorM_Francis",
+    "SurvivorM_Guo",
+    "SurvivorM_Hassan",
+    "SurvivorM_Indar",
+    "SurvivorM_Jose",
+    "SurvivorM_Kaito",
+    "SurvivorM_Lewis",
+    "SurvivorM_Manua",
+    "SurvivorM_Niki",
+    "SurvivorM_Oliver",
+    "SurvivorM_Peter",
+    "SurvivorM_Quinn",
+    "SurvivorM_Rolf",
+    "SurvivorM_Seth",
+    "SurvivorM_Taiki",
+    "SurvivorF_Eva",
+    "SurvivorF_Frida",
+    "SurvivorF_Gabi",
+    "SurvivorF_Helga",
+    "SurvivorF_Irena",
+    "SurvivorF_Judy",
+    "SurvivorF_Keiko",
+    "SurvivorF_Linda",
+    "SurvivorF_Maria",
+    "SurvivorF_Naomi",
+    "SurvivorF_Baty"
+  ],
+  "attachmentSlotItemSets": [
+    {
+      "slotName": "shoulderL",
+      "discreteItemSets": [
+        {
+          "itemType": "Aug",
+          "spawnWeight": 1,
+          "attributes": {
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
+          },
+          "quickBarSlot": 0,
+          "complexChildrenTypes": [
+            {
+              "itemType": "ACOGOptic_6x",
+              "attributes": {
+                "healthMin": 1,
+                "healthMax": 1,
+                "quantityMin": 1,
+                "quantityMax": 1
+              },
+              "quickBarSlot": -1
+            },
+            {
+              "itemType": "M4_OEBttstck_Black",
+              "attributes": {
+                "healthMin": 1,
+                "healthMax": 1,
+                "quantityMin": 1,
+                "quantityMax": 1
+              },
+              "quickBarSlot": -1
+            },
+            {
+              "itemType": "M4_PlasticHndgrd_Black",
+              "attributes": {
+                "healthMin": 1,
+                "healthMax": 1,
+                "quantityMin": 1,
+                "quantityMax": 1
+              },
+              "quickBarSlot": -1
+            },
+            {
+              "itemType": "M4_Suppressor",
+              "attributes": {
+                "healthMin": 1,
+                "healthMax": 1,
+                "quantityMin": 1,
+                "quantityMax": 1
+              },
+              "quickBarSlot": -1
+            },
+            {
+              "itemType": "Mag_STANAG_60Rnd",
+              "attributes": {
+                "healthMin": 1,
+                "healthMax": 1,
+                "quantityMin": 1,
+                "quantityMax": 1
+              },
+              "quickBarSlot": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slotName": "shoulderR",
+      "discreteItemSets": [
+        {
+          "itemType": "UMP45",
+          "spawnWeight": 1,
+          "attributes": {
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
+          },
+          "quickBarSlot": 1,
+          "complexChildrenTypes": [
+            {
+              "itemType": "ReflexOptic",
+              "attributes": {
+                "healthMin": 1,
+                "healthMax": 1,
+                "quantityMin": 1,
+                "quantityMax": 1
+              },
+              "quickBarSlot": -1
+            },
+            {
+              "itemType": "Battery9V",
+              "attributes": {
+                "healthMin": 1,
+                "healthMax": 1,
+                "quantityMin": 1,
+                "quantityMax": 1
+              },
+              "quickBarSlot": -1
+            },
+            {
+              "itemType": "PistolSuppressor",
+              "attributes": {
+                "healthMin": 1,
+                "healthMax": 1,
+                "quantityMin": 1,
+                "quantityMax": 1
+              },
+              "quickBarSlot": -1
+            },
+            {
+              "itemType": "Mag_UMP_25Rnd",
+              "attributes": {
+                "healthMin": 1,
+                "healthMax": 1,
+                "quantityMin": 1,
+                "quantityMax": 1
+              },
+              "quickBarSlot": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slotName": "Vest",
+      "discreteItemSets": [
+        {
+          "itemType": "PlateCarrierVest",
+          "spawnWeight": 1,
+          "attributes": {
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
+          },
+          "quickBarSlot": -1,
+          "simpleChildrenUseDefaultAttributes": false,
+          "simpleChildrenTypes": [
+            "PlateCarrierHolster"
+          ]
+        }
+      ]
+    },
+    {
+      "slotName": "Back",
+      "discreteItemSets": [
+        {
+          "itemType": "AliceBag_Camo",
+          "spawnWeight": 1,
+          "attributes": {
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
+          },
+          "quickBarSlot": -1,
+          "simpleChildrenUseDefaultAttributes": false,
+          "simpleChildrenTypes": [
+            "Mag_STANAG_60Rnd",
+            "Mag_UMP_25Rnd",
+            "Mag_UMP_25Rnd",
+            "Mag_STANAG_60Rnd",
+            "AmmoBox_556x45_20Rnd",
+            "AmmoBox_556x45_20Rnd",
+            "AmmoBox_357_20Rnd",
+            "Mag_Deagle_9rnd",
+            "Mag_Deagle_9rnd",
+            "AmmoBox_45ACP_25rnd",
+            "AmmoBox_45ACP_25rnd"
+          ]
+        }
+      ]
+    },
+    {
+      "slotName": "Headgear",
+      "discreteItemSets": [
+        {
+          "itemType": "WitchHood_Black",
+          "spawnWeight": 2,
+          "attributes": {
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
+          },
+          "quickBarSlot": -1
+        }
+      ]
+    },
+    {
+      "slotName": "Armband",
+      "discreteItemSets": [
+        {
+          "itemType": "Armband_Wolf",
+          "spawnWeight": 1,
+          "attributes": {
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
+          },
+          "quickBarSlot": -1
+        }
+      ]
+    },
+    {
+      "slotName": "Gloves",
+      "discreteItemSets": [
+        {
+          "itemType": "TacticalGloves_Black",
+          "spawnWeight": 2,
+          "attributes": {
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
+          },
+          "quickBarSlot": -1
+        }
+      ]
+    },
+    {
+      "slotName": "Mask",
+      "discreteItemSets": [
+        {
+          "itemType": "BalaclavaMask_Blackskull",
+          "spawnWeight": 2,
+          "attributes": {
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
+          },
+          "quickBarSlot": -1
+        }
+      ]
+    },
+    {
+      "slotName": "Eyewear",
+      "discreteItemSets": [
+        {
+          "itemType": "NVGHeadstrap",
+          "spawnWeight": 2,
+          "attributes": {
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
+          },
+          "quickBarSlot": -1
+        }
+      ]
+    },
+    {
+      "slotName": "Body",
+      "discreteItemSets": [
+        {
+          "itemType": "HuntingJacket_Autumn",
+          "spawnWeight": 2,
+          "attributes": {
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
+          },
+          "quickBarSlot": -1
+        }
+      ]
+    },
+    {
+      "slotName": "Legs",
+      "discreteItemSets": [
+        {
+          "itemType": "HunterPants_Autumn",
+          "spawnWeight": 2,
+          "attributes": {
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
+          },
+          "quickBarSlot": -1
+        }
+      ]
+    },
+    {
+      "slotName": "Hips",
+      "discreteItemSets": [
+        {
+          "itemType": "MilitaryBelt",
+          "spawnWeight": 1,
+          "attributes": {
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
+          },
+          "quickBarSlot": -1,
+          "complexChildrenTypes": [
+            {
+              "itemType": "NylonKnifeSheath",
+              "attributes": {
+                "healthMin": 1,
+                "healthMax": 1,
+                "quantityMin": 1,
+                "quantityMax": 1
+              },
+              "quickBarSlot": -1,
+              "simpleChildrenUseDefaultAttributes": false,
+              "simpleChildrenTypes": [
+                ""
+              ]
+            },
+            {
+              "itemType": "Canteen",
+              "attributes": {
+                "healthMin": 1,
+                "healthMax": 1,
+                "quantityMin": 1,
+                "quantityMax": 1
+              },
+              "quickBarSlot": -1,
+              "simpleChildrenUseDefaultAttributes": false,
+              "simpleChildrenTypes": [
+                ""
+              ]
+            },
+            {
+              "itemType": "CombatKnife",
+              "attributes": {
+                "healthMin": 1,
+                "healthMax": 1,
+                "quantityMin": 1,
+                "quantityMax": 1
+              },
+              "quickBarSlot": 3,
+              "simpleChildrenUseDefaultAttributes": false,
+              "simpleChildrenTypes": [
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slotName": "Feet",
+      "discreteItemSets": [
+        {
+          "itemType": "MilitaryBoots_Black",
+          "spawnWeight": 2,
+          "attributes": {
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
+          },
+          "quickBarSlot": -1
+        }
+      ]
+    }
+  ],
+  "discreteUnsortedItemSets": [
+    {
+      "name": "Cargo1",
+      "spawnWeight": 1,
+      "attributes": {
+        "healthMin": 1,
+        "healthMax": 1,
+        "quantityMin": 1,
+        "quantityMax": 1
+      },
+      "complexChildrenTypes": [
+        {
+          "itemType": "BandageDressing",
+          "attributes": {
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
+          },
+          "quickBarSlot": 4
+        },
+        {
+          "itemType": "Hatchet",
+          "attributes": {
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
+          },
+          "quickBarSlot": 5,
+          "simpleChildrenUseDefaultAttributes": true,
+          "simpleChildrenTypes": [
+            "Battery9V"
+          ]
+        },
+        {
+          "itemType": "Whetstone",
+          "attributes": {
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
+          },
+          "quickBarSlot": -1,
+          "simpleChildrenUseDefaultAttributes": true,
+          "simpleChildrenTypes": [
+            "Battery9V"
+          ]
+        },
+        {
+          "itemType": "SodaCan_Spite",
+          "attributes": {
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
+          },
+          "quickBarSlot": -1,
+          "simpleChildrenUseDefaultAttributes": true,
+          "simpleChildrenTypes": [
+            "Battery9V"
+          ]
+        },
+        {
+          "itemType": "M67Grenade",
+          "attributes": {
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
+          },
+          "quickBarSlot": -1
+        },
+        {
+          "itemType": "M67Grenade",
+          "attributes": {
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
+          },
+          "quickBarSlot": -1
+        },
+        {
+          "itemType": "SodaCan_Spite",
+          "attributes": {
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
+          },
+          "quickBarSlot": -1
+        },
+        {
+          "itemType": "TacticalBaconCan",
+          "attributes": {
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
+          },
+          "quickBarSlot": -1
+        },
+        {
+          "itemType": "TacticalBaconCan",
+          "attributes": {
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
+          },
+          "quickBarSlot": -1
+        },
+        {
+          "itemType": "TetracyclineAntibiotics",
+          "attributes": {
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 40,
+            "quantityMax": 50
+          },
+          "quickBarSlot": -1
+        },
+        {
+          "itemType": "ChernarusMap",
+          "attributes": {
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
+          },
+          "quickBarSlot": 6
+        },
+        {
+          "itemType": "Matchbox",
+          "attributes": {
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
+          },
+          "quickBarSlot": 7
+        },
+        {
+          "itemType": "Deagle_Gold",
+          "attributes": {
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
+          },
+          "quickBarSlot": 2,
+          "complexChildrenTypes": [
+            {
+              "itemType": "Mag_Deagle_9rnd",
+              "attributes": {
+                "healthMin": 1,
+                "healthMax": 1,
+                "quantityMin": 1,
+                "quantityMax": 1
+              },
+              "quickBarSlot": -1
+            },
+            {
+              "itemType": "PistolSuppressor",
+              "attributes": {
+                "healthMin": 1,
+                "healthMax": 1,
+                "quantityMin": 1,
+                "quantityMax": 1
+              },
+              "quickBarSlot": -1
+            }
+          ],
+          "simpleChildrenUseDefaultAttributes": false,
+          "simpleChildrenTypes": [
+            "Mag_STANAG_60Rnd",
+            "Mag_STANAG_60Rnd",
+            "AmmoBox_556x45_20Rnd",
+            "BandageDressing",
+            "Mag_Deagle_9rnd",
+            "TacticalBaconCan",
+            "TacticalBaconCan",
+            "Canteen"
+          ]
+        }
+      ]
+    }
+  ]
+}
